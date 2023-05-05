@@ -2,4 +2,9 @@ theme: minima
 title: Inquid
 author: INQUID SAS DE CV
 email: contact@inquid.co
-description: Inquid businesses consulting 
+description: Inquid businesses consulting
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
