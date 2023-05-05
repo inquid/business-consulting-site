@@ -7,11 +7,11 @@ date: 2023-05-04
 
 Buy your Point of sale system and start using it right away.
 
-[Subscribe]([https://billing.stripe.com/p/login/test_9AQ5n7eoA6cB4Ug6oo](https://billing.stripe.com/p/login/test_9AQ5n7eoA6cB4Ug6oo))
+[Subscribe]([https://pay.inquid.dev](https://pay.inquid.dev))
 
 ![Point of sale](pos.png)
 
 {% assign image_files = site.static_files | where: "image", true %}
 {% for myimage in image_files %}
-  {{ myimage.path }}
+  ![Point of sale]({{ myimage.path }})
 {% endfor %}
